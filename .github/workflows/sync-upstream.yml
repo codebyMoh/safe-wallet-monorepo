@@ -18,8 +18,8 @@ jobs:
 
       - name: Set Git identity
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "codebyMoh"
+          git config --global user.email "codebymohit@gmail.com"
 
       - name: Add upstream repository
         run: git remote add upstream https://github.com/safe-global/safe-wallet-monorepo.git
